@@ -18,10 +18,8 @@
     trueRemove: true
 }
 ```
-
   </td>
 </tr>
-
 <tr>
   <td>dtf.ru</td>
   <td>
@@ -34,14 +32,12 @@
     trueRemove: true
 }
 ```
-
   </td>
 </tr>
-
 <tr>
   <td>parade.com</td>
   <td>
-
+    
 ```javascript
 '.*\.?parade\.com': {
     remove: ['.m-in-content-ad','.m-in-content-ad-row','.m-outbrain','.m-fixedbottom-ad--container','.m-ad'],
@@ -49,9 +45,21 @@
     timeout: 2000
 }
 ```
-
   </td>
 </tr>
+<tr>
+  <td>fandom.com</td>
+  <td>
 
+```javascript
+'.*\.?fandom\.com': {
+    remove: ['.top-ads-container','.bottom-ads-container','#WikiaBar','.notifications-placeholder','.gpt-ad'],
+    interaction: true,
+    timeout: 2000,
+    trueRemove: true
+},
+```
+  </td>
+</tr>
   </tbody>
 </table>
