@@ -139,7 +139,6 @@ A Boolean on whether or not to actually remove elements instead of hiding them (
             remove: ['.top-ads-container','.bottom-ads-container','#WikiaBar','.notifications-placeholder','.gpt-ad'],
             interaction: true,
             timeout: 2000,
-            interval: 0,
             trueRemove: true
         },
     }
